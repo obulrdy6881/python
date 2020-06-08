@@ -10,8 +10,8 @@ from rasa_core.interpreter import NaturalLanguageInterpreter
 import re
 from Apps.apis import create_request, get_all_request, get_case_details
 
-interpreter = NaturalLanguageInterpreter.create("./models/current/nlu")
-agent = Agent.load('./models/current/dialogue', interpreter=interpreter)
+interpreter = NaturalLanguageInterpreter.create("models/current/nlu")
+agent = Agent.load('models/current/dialogue', interpreter=interpreter)
 
 app = FlaskAPI(__name__, template_folder='templates')
 CORS(app)
