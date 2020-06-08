@@ -33,3 +33,4 @@ gunicorn==20.0.4
 Flask-API==2.0
 python-engineio==3.13.0
 tornado==3.2.1
+rasa==1.10.2
