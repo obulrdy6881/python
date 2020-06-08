@@ -25,6 +25,7 @@ rasa_core~=0.14.5
 pymongo==3.7.2
 python-dateutil==2.7.5
 spacy~=2.0.18
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz
 sklearn_crfsuite==0.3.6
 keras-applications==1.0.6
 keras-preprocessing==1.0.5
