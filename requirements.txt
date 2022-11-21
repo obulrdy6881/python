@@ -7,7 +7,7 @@ numpy~=1.16.0
 typing==3.6.6
 ruamel.yaml==0.15.85
 requests~=2.2
-tensorflow==1.13.1
+tensorflow==2.9.3
 h5py==2.10.0
 ConfigArgParse==0.13.0
 pykwalify==1.7.0
